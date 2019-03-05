@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<pre>
+ветеран (см. <a style="color: blue" href="Старость.html" onclick="setToolBarText('Старость')">Старость</a>, престарелый служитель)
+женщина-служитель 7СЦ <a style="color: blue" onclick="tap('7СЦ',207)">207</a>
+личная жизнь служителя
+	<i>весь на виду</i> СП <a style="color: blue" onclick="tap('СП',410)">410</a>
+	двоякая жизнь
+		молитва и действие СИ <a style="color: blue" onclick="tap('СИ',512)">512</a>
+		<i>молитесь и трудитесь, трудитесь и молитесь</i> СП <a style="color: blue" onclick="tap('СП',498)">498</a>, <a style="color: blue" onclick="tap('СП',499)">499</a>
+	здоровый образ жизни 1СЦ <a style="color: blue" onclick="tap('1СЦ',466)">466</a>, <a style="color: blue" onclick="tap('1СЦ',469)">469</a>, <a style="color: blue" onclick="tap('1СЦ',470)">470</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',311)">311</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',135)">135</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',267)">267</a>, <a style="color: blue" onclick="tap('6СЦ',336)">336</a>, <a style="color: blue" onclick="tap('6СЦ',376)">376</a>, <a style="color: blue" onclick="tap('6СЦ',378)">378</a>; СИ <a style="color: blue" onclick="tap('СИ',146)">146</a>, <a style="color: blue" onclick="tap('СИ',147)">147</a> (см. <a style="color: blue" href="Здоровый образ жизни.html" onclick="setToolBarText('Здоровый образ жизни')">Здоровый образ жизни</a>)
+		диета 3СЦ <a style="color: blue" onclick="tap('3СЦ',310)">310</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',416)">416</a>, <a style="color: blue" onclick="tap('4СЦ',417)">417</a>, <a style="color: blue" onclick="tap('4СЦ',515)">515</a>, <a style="color: blue" onclick="tap('4СЦ',516)">516</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ',159)">159</a>, <a style="color: blue" onclick="tap('9СЦ',160)">160</a>; СИ <a style="color: blue" onclick="tap('СИ',309)">309</a>
+		здоровье 4СЦ <a style="color: blue" onclick="tap('4СЦ',264)">264</a>, <a style="color: blue" onclick="tap('4СЦ',269)">269</a>, <a style="color: blue" onclick="tap('4СЦ',270)">270</a>
+		знание и умение СИ <a style="color: blue" onclick="tap('СИ',146)">146</a>, <a style="color: blue" onclick="tap('СИ',147)">147</a>
+		отдых ЖВ <a style="color: blue" onclick="tap('ЖВ','360-362')">360-362</a>; СИ <a style="color: blue" onclick="tap('СИ',58)">58</a>
+		режим 4СЦ <a style="color: blue" onclick="tap('4СЦ',411)">411</a>, <a style="color: blue" onclick="tap('4СЦ',412)">412</a>
+		сон 4СЦ <a style="color: blue" onclick="tap('4СЦ',408)">408</a>, <a style="color: blue" onclick="tap('4СЦ',411)">411</a>, <a style="color: blue" onclick="tap('4СЦ',412)">412</a>
+		физические упражнения 3СЦ <a style="color: blue" onclick="tap('3СЦ',211)">211</a>, <a style="color: blue" onclick="tap('3СЦ',235)">235</a>, <a style="color: blue" onclick="tap('3СЦ','309-311')">309-311</a>
+			физический труд ДА <a style="color: blue" onclick="tap('ДА','349-353')">349-353</a>, <a style="color: blue" onclick="tap('ДА',356)">356</a>, <a style="color: blue" onclick="tap('ДА',357)">357</a>; РХЛ <a style="color: blue" onclick="tap('РХЛ',121)">121</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ','408-410')">408-410</a>
+				апостола Павла 4СЦ <a style="color: blue" onclick="tap('4СЦ',409)">409</a>, <a style="color: blue" onclick="tap('4СЦ',410)">410</a>
+	личные проблемы 2СЦ <a style="color: blue" onclick="tap('2СЦ',342)">342</a>, <a style="color: blue" onclick="tap('2СЦ',513)">513</a>, <a style="color: blue" onclick="tap('2СЦ',514)">514</a>, <a style="color: blue" onclick="tap('2СЦ',545)">545</a>, <a style="color: blue" onclick="tap('2СЦ',547)">547</a>, <a style="color: blue" onclick="tap('2СЦ',548)">548</a>, <a style="color: blue" onclick="tap('2СЦ',551)">551</a>, <a style="color: blue" onclick="tap('2СЦ',556)">556</a>, <a style="color: blue" onclick="tap('2СЦ',557)">557</a>, <a style="color: blue" onclick="tap('2СЦ',621)">621</a>, <a style="color: blue" onclick="tap('2СЦ',622)">622</a>, <a style="color: blue" onclick="tap('2СЦ',707)">707</a>, <a style="color: blue" onclick="tap('2СЦ',708)">708</a>
+		<i>в Христовом служении есть утешение</i> СИ <a style="color: blue" onclick="tap('СИ',487)">487</a>, <a style="color: blue" onclick="tap('СИ',488)">488</a>
+		искушения СИ <a style="color: blue" onclick="tap('СИ',509)">509</a>, <a style="color: blue" onclick="tap('СИ',510)">510</a>
+		ужасные опасности 2ИВ <a style="color: blue" onclick="tap('2ИВ',391)">391</a>
+		я<i>рмо человеческого изготовления</i> 1ИВ <a style="color: blue" onclick="tap('1ИВ',194)">194</a>
+	материальное обеспечение (см. ниже)
+	<i>начните трудиться для себя</i> СП <a style="color: blue" onclick="tap('СП',146)">146</a>
+	одежда служителя 2СЦ <a style="color: blue" onclick="tap('2СЦ',610)">610</a>, <a style="color: blue" onclick="tap('2СЦ',611)">611</a>, <a style="color: blue" onclick="tap('2СЦ',613)">613</a>, <a style="color: blue" onclick="tap('2СЦ',614)">614</a> (см. <a style="color: blue" href="Одежда.html" onclick="setToolBarText('Одежда')">Одежда</a>) 
+	репутация 2СЦ <a style="color: blue" onclick="tap('2СЦ',139)">139</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',91)">91</a>
+	семья ПП <a style="color: blue" onclick="tap('ПП',579)">579</a>, <a style="color: blue" onclick="tap('ПП',580)">580</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',177)">177</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',618)">618</a>
+		дети 1СЦ <a style="color: blue" onclick="tap('1СЦ',119)">119</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',621)">621</a>, <a style="color: blue" onclick="tap('2СЦ',623)">623</a>, <a style="color: blue" onclick="tap('2СЦ',624)">624</a>, <a style="color: blue" onclick="tap('2СЦ',698)">698</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',381)">381</a>, <a style="color: blue" onclick="tap('4СЦ',382)">382</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',135)">135</a>; 7СЦ <a style="color: blue" onclick="tap('7СЦ',250)">250</a>
+			усыновление детей 6СЦ <a style="color: blue" onclick="tap('6СЦ',285)">285</a>
+		дом 2СЦ <a style="color: blue" onclick="tap('2СЦ',614)">614</a>
+		жена служителя (см. <a style="color: blue" href="Жена служителя.html" onclick="setToolBarText('Жена служителя')">Жена служителя</a>)
+		критерий духовности 5СЦ <a style="color: blue" onclick="tap('5СЦ',161)">161</a>
+		надлежащее внимание 2ИВ <a style="color: blue" onclick="tap('2ИВ',187)">187</a>
+		семьи библейских служителей
+			семья <a style="color: blue" href="Аарон.html" onclick="setToolBarText('Аарон')">Аарон</a>а (см. Библейские персонажи Ветхого <a style="color: blue" href="<a style="color: blue" href="Библейские персонажи Ветхого Завета.html" onclick="setToolBarText('Библейские персонажи Ветхого Завета')">Библейские персонажи Ветхого Завета</a>.html" onclick="setToolBarText('<a style="color: blue" href="Библейские персонажи Ветхого Завета.html" onclick="setToolBarText('Библейские персонажи Ветхого Завета')">Библейские персонажи Ветхого Завета</a>')"><a style="color: blue" href="Библейские персонажи Ветхого Завета.html" onclick="setToolBarText('Библейские персонажи Ветхого Завета')">Библейские персонажи Ветхого Завета</a></a>а)
+			семья Илия (см. там же)
+		служитель на квартире 3СЦ <a style="color: blue" onclick="tap('3СЦ',308)">308</a>
+			домашние обязанности 3СЦ <a style="color: blue" onclick="tap('3СЦ',308)">308</a>
+	совершенствование 3СЦ <a style="color: blue" onclick="tap('3СЦ',465)">465</a>
+материальное обеспечение 5СЦ <a style="color: blue" onclick="tap('5СЦ',369)">369</a>, <a style="color: blue" onclick="tap('5СЦ',374)">374</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ',52)">52</a>
+	<a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a> имеет тысячу возможностей СИ <a style="color: blue" onclick="tap('СИ',481)">481</a>
+	быта 5СЦ <a style="color: blue" onclick="tap('5СЦ',373)">373</a>
+	жалованье ДА <a style="color: blue" onclick="tap('ДА',340)">340</a>, <a style="color: blue" onclick="tap('ДА',341)">341</a>, <a style="color: blue" onclick="tap('ДА','353-358')">353-358</a>; РХЛ <a style="color: blue" onclick="tap('РХЛ',612)">612</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ',446)">446</a>, <a style="color: blue" onclick="tap('1СЦ',467)">467</a>, <a style="color: blue" onclick="tap('1СЦ',520)">520</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',339)">339</a>, <a style="color: blue" onclick="tap('2СЦ',344)">344</a>, <a style="color: blue" onclick="tap('2СЦ',345)">345</a>, <a style="color: blue" onclick="tap('2СЦ',411)">411</a>, <a style="color: blue" onclick="tap('2СЦ',412)">412</a>, <a style="color: blue" onclick="tap('2СЦ',545)">545</a>, <a style="color: blue" onclick="tap('2СЦ',546)">546</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',397)">397</a>; 7СЦ <a style="color: blue" onclick="tap('7СЦ','207-209')">207-209</a>, <a style="color: blue" onclick="tap('7СЦ',250)">250</a>; СИ <a style="color: blue" onclick="tap('СИ',480)">480</a>
+	конфликт интересов ДА <a style="color: blue" onclick="tap('ДА','365-367')">365-367</a>
+	финансовые затруднения 1СЦ <a style="color: blue" onclick="tap('1СЦ',205)">205</a>, <a style="color: blue" onclick="tap('1СЦ',376)">376</a>, <a style="color: blue" onclick="tap('1СЦ',438)">438</a>, <a style="color: blue" onclick="tap('1СЦ',448)">448</a>
+		аудиторская комиссия 2ИВ <a style="color: blue" onclick="tap('2ИВ',193)">193</a>
+		на новых местах 1ИВ <a style="color: blue" onclick="tap('1ИВ',87)">87</a>, <a style="color: blue" onclick="tap('1ИВ',88)">88</a>
+		<i>нищенская зарплата</i> 2ИВ <a style="color: blue" onclick="tap('2ИВ',193)">193</a>
+			несправедливость 2ИВ <a style="color: blue" onclick="tap('2ИВ',193)">193</a>
+		оставление служения по материальным мотивам 2ИВ <a style="color: blue" onclick="tap('2ИВ',214)">214</a>
+			намерение заняться физическим трудом 1СЦ <a style="color: blue" onclick="tap('1СЦ',376)">376</a>
+				преимущества пасторского служения 1СЦ <a style="color: blue" onclick="tap('1СЦ',376)">376</a>
+		преждевременная смерть 5СЦ <a style="color: blue" onclick="tap('5СЦ',205)">205</a>
+	экономность 3СЦ <a style="color: blue" onclick="tap('3СЦ',30)">30</a>
+образование служителя ЖВ <a style="color: blue" onclick="tap('ЖВ',249)">249</a>; ДА <a style="color: blue" onclick="tap('ДА',126)">126</a>; РХЛ <a style="color: blue" onclick="tap('РХЛ',741)">741</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',342)">342</a>, <a style="color: blue" onclick="tap('2СЦ',343)">343</a>, <a style="color: blue" onclick="tap('2СЦ',500)">500</a>, <a style="color: blue" onclick="tap('2СЦ',503)">503</a>, <a style="color: blue" onclick="tap('2СЦ',556)">556</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',160)">160</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',317)">317</a>, <a style="color: blue" onclick="tap('4СЦ',318)">318</a>, <a style="color: blue" onclick="tap('4СЦ','405-407')">405-407</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',528)">528</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',135)">135</a>, <a style="color: blue" onclick="tap('6СЦ',411)">411</a>, <a style="color: blue" onclick="tap('6СЦ',412)">412</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ',284)">284</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',152)">152</a>; СИ <a style="color: blue" onclick="tap('СИ',150)">150</a>, <a style="color: blue" onclick="tap('СИ',151)">151</a> (см. <a style="color: blue" href="Образование.html" onclick="setToolBarText('Образование')">Образование</a>)
+	всю жизнь СИ <a style="color: blue" onclick="tap('СИ',499)">499</a>
+	изучение истории Церкви 1ИВ <a style="color: blue" onclick="tap('1ИВ',157)">157</a>, <a style="color: blue" onclick="tap('1ИВ',158)">158</a> (см. <a style="color: blue" href="<a style="color: blue" href="История.html" onclick="setToolBarText('История')">История</a> Церкви АСД.html" onclick="setToolBarText('<a style="color: blue" href="История.html" onclick="setToolBarText('История')">История</a> Церкви АСД')"><a style="color: blue" href="История.html" onclick="setToolBarText('История')">История</a> Церкви АСД</a>)
+	литература (см. <a style="color: blue" href="Литература.html" onclick="setToolBarText('Литература')">Литература</a>)
+		историческая СИ <a style="color: blue" onclick="tap('СИ',441)">441</a>
+ 		теологические труды СИ <a style="color: blue" onclick="tap('СИ',441)">441</a>
+			<i>то, что не хлеб</i> СИ <a style="color: blue" onclick="tap('СИ',441)">441</a>
+	молодых служителей 2ИВ <a style="color: blue" onclick="tap('2ИВ',208)">208</a>
+		специальный фонд 2ИВ <a style="color: blue" onclick="tap('2ИВ',208)">208</a>, <a style="color: blue" onclick="tap('2ИВ',209)">209</a>
+			брать не из десятин 2ИВ <a style="color: blue" onclick="tap('2ИВ',209)">209</a>
+			заем лучше, чем дар 2ИВ <a style="color: blue" onclick="tap('2ИВ',209)">209</a>
+		спонсорство семьей Уайт 2ИВ <a style="color: blue" onclick="tap('2ИВ',208)">208</a>
+	квалификация 2СЦ <a style="color: blue" onclick="tap('2СЦ',341)">341</a>, <a style="color: blue" onclick="tap('2СЦ',555)">555</a>, <a style="color: blue" onclick="tap('2СЦ',556)">556</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',459)">459</a>
+	препятствия 2ИВ <a style="color: blue" onclick="tap('2ИВ',152)">152</a>
+	самообразование СП <a style="color: blue" onclick="tap('СП',193)">193</a>, <a style="color: blue" onclick="tap('СП',194)">194</a>
+		изучение языков СП <a style="color: blue" onclick="tap('СП',194)">194</a>
+		личное обретение мудрости СП <a style="color: blue" onclick="tap('СП',193)">193</a>, <a style="color: blue" onclick="tap('СП',199)">199</a>, <a style="color: blue" onclick="tap('СП',200)">200</a>
+		развитие умственного потенциала СП <a style="color: blue" onclick="tap('СП',194)">194</a>
+			делать в 10 раз больше СП <a style="color: blue" onclick="tap('СП',194)">194</a>
+	сбалансированное отношение к образованию
+		не игнорировать СП <a style="color: blue" onclick="tap('СП',259)">259</a>
+		не самое необходимое СП <a style="color: blue" onclick="tap('СП',259)">259</a>
+		приоритет
+			доброго характера 9СЦ <a style="color: blue" onclick="tap('9СЦ',36)">36</a>
+			духовной культуры 7СЦ <a style="color: blue" onclick="tap('7СЦ',281)">281</a>
+				<i>лучший диплом</i> 7СЦ <a style="color: blue" onclick="tap('7СЦ',281)">281</a>
+			помазания Духом 5СЦ <a style="color: blue" onclick="tap('5СЦ',82)">82</a>
+	учеба в школе Христа 3ИВ <a style="color: blue" onclick="tap('3ИВ',25)">25</a> (см. <a style="color: blue" href="<a style="color: blue" href="Школа.html" onclick="setToolBarText('Школа')">Школа</a> Христа.html" onclick="setToolBarText('<a style="color: blue" href="Школа.html" onclick="setToolBarText('Школа')">Школа</a> Христа')"><a style="color: blue" href="Школа.html" onclick="setToolBarText('Школа')">Школа</a> Христа</a>)
+		учитель / ученик 1ИВ <a style="color: blue" onclick="tap('1ИВ',411)">411</a>, <a style="color: blue" onclick="tap('1ИВ',412)">412</a>; СП <a style="color: blue" onclick="tap('СП',23)">23</a>
+образы/ сравнения
+	глиняные сосуды ДА <a style="color: blue" onclick="tap('ДА',330)">330</a>
+	канал общения с <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>ом 1ИВ <a style="color: blue" onclick="tap('1ИВ',117)">117</a>
+	младший пастырь ДА <a style="color: blue" onclick="tap('ДА','525-527')">525-527</a>
+	отцы и матери Израиля 2СЦ <a style="color: blue" onclick="tap('2СЦ',467)">467</a>, <a style="color: blue" onclick="tap('2СЦ',468)">468</a>
+	пастырь ПП <a style="color: blue" onclick="tap('ПП',191)">191</a>, <a style="color: blue" onclick="tap('ПП',192)">192</a>
+	полководец 1СЦ <a style="color: blue" onclick="tap('1СЦ',647)">647</a>, <a style="color: blue" onclick="tap('1СЦ',648)">648</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',362)">362</a>
+	страж ДА <a style="color: blue" onclick="tap('ДА',360)">360</a>, <a style="color: blue" onclick="tap('ДА',361)">361</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ',469)">469</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',439)">439</a>, <a style="color: blue" onclick="tap('2СЦ',440)">440</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',402)">402</a>, <a style="color: blue" onclick="tap('4СЦ',403)">403</a>; 1ИВ <a style="color: blue" onclick="tap('1ИВ',194)">194</a>, <a style="color: blue" onclick="tap('1ИВ',195)">195</a>; СП <a style="color: blue" onclick="tap('СП',405)">405</a>, <a style="color: blue" onclick="tap('СП',406)">406</a>
+		возводить стену из Слова 1ИВ <a style="color: blue" onclick="tap('1ИВ',194)">194</a>, <a style="color: blue" onclick="tap('1ИВ',195)">195</a>
+ответственность ДА <a style="color: blue" onclick="tap('ДА',207)">207</a>, <a style="color: blue" onclick="tap('ДА','360-362')">360-362</a>, <a style="color: blue" onclick="tap('ДА',503)">503</a>, <a style="color: blue" onclick="tap('ДА',504)">504</a>, <a style="color: blue" onclick="tap('ДА',506)">506</a>; ВБ <a style="color: blue" onclick="tap('ВБ',459)">459</a>, <a style="color: blue" onclick="tap('ВБ',460)">460</a>, <a style="color: blue" onclick="tap('ВБ',640)">640</a>, <a style="color: blue" onclick="tap('ВБ',654)">654</a>, <a style="color: blue" onclick="tap('ВБ',655)">655</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',706)">706</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',267)">267</a>, <a style="color: blue" onclick="tap('4СЦ',268)">268</a>, <a style="color: blue" onclick="tap('4СЦ',524)">524</a>, <a style="color: blue" onclick="tap('4СЦ',525)">525</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',16)">16</a>, <a style="color: blue" onclick="tap('5СЦ',143)">143</a>; 8СЦ <a style="color: blue" onclick="tap('8СЦ',18)">18</a>; СП <a style="color: blue" onclick="tap('СП',143)">143</a>, <a style="color: blue" onclick="tap('СП',144)">144</a>, <a style="color: blue" onclick="tap('СП',236)">236</a>, <a style="color: blue" onclick="tap('СП',246)">246</a>
+	влияние ПП <a style="color: blue" onclick="tap('ПП',556)">556</a>, <a style="color: blue" onclick="tap('ПП',579)">579</a>, <a style="color: blue" onclick="tap('ПП',580)">580</a>; ПЦ <a style="color: blue" onclick="tap('ПЦ',676)">676</a>
+		на церковь 3СЦ <a style="color: blue" onclick="tap('3СЦ',421)">421</a>, <a style="color: blue" onclick="tap('3СЦ',422)">422</a>; СП <a style="color: blue" onclick="tap('СП',43)">43</a>, <a style="color: blue" onclick="tap('СП',158)">158</a>
+			<i>овцы пасут пастора</i> 3СЦ <a style="color: blue" onclick="tap('3СЦ',234)">234</a>
+			<i>члены церкви опередили</i> 1СЦ <a style="color: blue" onclick="tap('1СЦ',369)">369</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',340)">340</a>, <a style="color: blue" onclick="tap('2СЦ',499)">499</a>, <a style="color: blue" onclick="tap('2СЦ',546)">546</a>, <a style="color: blue" onclick="tap('2СЦ',629)">629</a>, <a style="color: blue" onclick="tap('2СЦ',708)">708</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',58)">58</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',166)">166</a>, <a style="color: blue" onclick="tap('5СЦ',726)">726</a>
+		недоброе ДА <a style="color: blue" onclick="tap('ДА',328)">328</a>
+		особое влияние РХЛ <a style="color: blue" onclick="tap('РХЛ',677)">677</a>
+		посмертное ПП <a style="color: blue" onclick="tap('ПП',481)">481</a>
+	обязанности
+		знание обязанностей 9СЦ <a style="color: blue" onclick="tap('9СЦ',202)">202</a>
+		неприятные СИ <a style="color: blue" onclick="tap('СИ',472)">472</a>, <a style="color: blue" onclick="tap('СИ',473)">473</a>
+		нести собственное бремя СП <a style="color: blue" onclick="tap('СП',495)">495</a>
+			нести иго Христово 9СЦ <a style="color: blue" onclick="tap('9СЦ',124)">124</a>
+			чужие обязанности ЖВ <a style="color: blue" onclick="tap('ЖВ',816)">816</a>; 8СЦ <a style="color: blue" onclick="tap('8СЦ',189)">189</a>
+		поиск легких заданий СИ <a style="color: blue" onclick="tap('СИ',499)">499</a>
+	ответственность согласно преимуществам 7СЦ <a style="color: blue" onclick="tap('7СЦ',200)">200</a>
+		притча о смоковнице 7СЦ <a style="color: blue" onclick="tap('7СЦ',200)">200</a>
+	отчет на Суде ДА <a style="color: blue" onclick="tap('ДА',423)">423</a>
+	пробуждение начинается со служителя (см. <a style="color: blue" href="Пробуждение духовное.html" onclick="setToolBarText('Пробуждение духовное')">Пробуждение духовное</a>)
+отношение ангелов
+	исправление ошибок 1СЦ <a style="color: blue" onclick="tap('1СЦ',204)">204</a>
+отношение <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>а / Христа
+	к личным планам служителя
+		возможен Божественный отказ СИ <a style="color: blue" onclick="tap('СИ',473)">473</a>
+			пример Моисея СИ <a style="color: blue" onclick="tap('СИ',474)">474</a>, <a style="color: blue" onclick="tap('СИ',475)">475</a>
+	любовь СИ <a style="color: blue" onclick="tap('СИ',482)">482</a>
+	награда РХЛ <a style="color: blue" onclick="tap('РХЛ',786)">786</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',310)">310</a>; 8СЦ <a style="color: blue" onclick="tap('8СЦ',44)">44</a>, <a style="color: blue" onclick="tap('8СЦ',196)">196</a>, <a style="color: blue" onclick="tap('8СЦ',197)">197</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ',285)">285</a>
+	<i>нет никого более ценного</i> ДА <a style="color: blue" onclick="tap('ДА',369)">369</a>, <a style="color: blue" onclick="tap('ДА',370)">370</a>; СИ <a style="color: blue" onclick="tap('СИ',488)">488</a>
+	обличение 2ИВ <a style="color: blue" onclick="tap('2ИВ',81)">81</a>
+		доказательство Божьей любви 2ИВ <a style="color: blue" onclick="tap('2ИВ',81)">81</a>, <a style="color: blue" onclick="tap('2ИВ',82)">82</a>
+	<i>оказывает высочайшую честь</i> ДА <a style="color: blue" onclick="tap('ДА',328)">328</a>
+	<i>передает власть служителям</i> ЖВ <a style="color: blue" onclick="tap('ЖВ',166)">166</a>
+	поддержка 8СЦ <a style="color: blue" onclick="tap('8СЦ',17)">17</a>; СИ <a style="color: blue" onclick="tap('СИ',481)">481</a>
+		вдохновенный призыв Духа пророчества 2ИВ <a style="color: blue" onclick="tap('2ИВ',399)">399</a>
+	призвание к служению (см. ниже)
+	реакция Господа на отвержение Его служителя ПП <a style="color: blue" onclick="tap('ПП',385)">385</a>, <a style="color: blue" onclick="tap('ПП',386)">386</a>, <a style="color: blue" onclick="tap('ПП',402)">402</a>; ЖВ <a style="color: blue" onclick="tap('ЖВ',325)">325</a>, <a style="color: blue" onclick="tap('ЖВ',489)">489</a>
+	руководство 8СЦ <a style="color: blue" onclick="tap('8СЦ',185)">185</a>
+	<a style="color: blue" href="Христос.html" onclick="setToolBarText('Христос')">Христос</a> впереди ЖВ <a style="color: blue" onclick="tap('ЖВ',816)">816</a>
+		рядом ЖВ <a style="color: blue" onclick="tap('ЖВ',249)">249</a>
+отношение дьявола
+	высмеивает недостатки СП <a style="color: blue" onclick="tap('СП',188)">188</a>
+	о<i>полчается особым образом</i> СП <a style="color: blue" onclick="tap('СП',404)">404</a>
+		особая мишень – служитель 3СЦ <a style="color: blue" onclick="tap('3СЦ',469)">469</a>
+	преувеличивает недостатки СП <a style="color: blue" onclick="tap('СП',188)">188</a>
+	противодействие ПЦ <a style="color: blue" onclick="tap('ПЦ',173)">173</a>, <a style="color: blue" onclick="tap('ПЦ',174)">174</a>, <a style="color: blue" onclick="tap('ПЦ',645)">645</a>, <a style="color: blue" onclick="tap('ПЦ','658-660')">658-660</a>; ВБ <a style="color: blue" onclick="tap('ВБ',510)">510</a>
+		в конце времени ПЦ <a style="color: blue" onclick="tap('ПЦ',659)">659</a>
+отношение служителя
+	к детям членов церкви ЖВ <a style="color: blue" onclick="tap('ЖВ',517)">517</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',382)">382</a>, <a style="color: blue" onclick="tap('4СЦ',397)">397</a>, <a style="color: blue" onclick="tap('4СЦ',398)">398</a>
+	к женщинам 1СЦ <a style="color: blue" onclick="tap('1СЦ',381)">381</a>, <a style="color: blue" onclick="tap('1СЦ',437)">437</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',594)">594</a>, <a style="color: blue" onclick="tap('5СЦ',595)">595</a>, <a style="color: blue" onclick="tap('5СЦ',598)">598</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',29)">29</a>, <a style="color: blue" onclick="tap('2ИВ',30)">30</a>
+		порицать видимость зла 5СЦ
+	к молодежи 1СЦ <a style="color: blue" onclick="tap('1СЦ',380)">380</a>
+ 	к политике 7СЦ <a style="color: blue" onclick="tap('7СЦ',252)">252</a>
+отношение членов церкви к служителю негативное 1ИВ <a style="color: blue" onclick="tap('1ИВ',72)">72</a>, <a style="color: blue" onclick="tap('1ИВ',73)">73</a>
+	к ошибкам (см. ниже: ошибки служителя)
+	оценка после смерти СИ <a style="color: blue" onclick="tap('СИ',484)">484</a>
+	причины 1ИВ <a style="color: blue" onclick="tap('1ИВ',72)">72</a>, <a style="color: blue" onclick="tap('1ИВ',73)">73</a>
+	разновидности
+		зависимость 7СЦ <a style="color: blue" onclick="tap('7СЦ','18-20')">18-20</a>, <a style="color: blue" onclick="tap('7СЦ',24)">24</a>, <a style="color: blue" onclick="tap('7СЦ',38)">38</a>; 8СЦ <a style="color: blue" onclick="tap('8СЦ',145)">145</a>
+			возлагают упование на служителя
+				<i><a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a> уничижит</i> 2СЦ <a style="color: blue" onclick="tap('2СЦ',121)">121</a>
+			отражение пастора 2СЦ <a style="color: blue" onclick="tap('2СЦ',547)">547</a>, <a style="color: blue" onclick="tap('2СЦ',645)">645</a>, <a style="color: blue" onclick="tap('2СЦ',646)">646</a>
+			подражание 5СЦ <a style="color: blue" onclick="tap('5СЦ',214)">214</a>, <a style="color: blue" onclick="tap('5СЦ',227)">227</a>
+			ставить на место <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>а РХЛ <a style="color: blue" onclick="tap('РХЛ',262)">262</a>
+				превозношение 4СЦ <a style="color: blue" onclick="tap('4СЦ',607)">607</a>
+		критика (см. <a style="color: blue" href="Критика.html" onclick="setToolBarText('Критика')">Критика</a>)
+		лесть 1СЦ <a style="color: blue" onclick="tap('1СЦ',437)">437</a>, <a style="color: blue" onclick="tap('1СЦ',439)">439</a>, <a style="color: blue" onclick="tap('1СЦ',474)">474</a>, <a style="color: blue" onclick="tap('1СЦ',475)">475</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',338)">338</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',227)">227</a>, <a style="color: blue" onclick="tap('5СЦ',595)">595</a>, <a style="color: blue" onclick="tap('5СЦ',596)">596</a>
+		недоверие 3СЦ <a style="color: blue" onclick="tap('3СЦ',261)">261</a>
+		непонимание 3СЦ <a style="color: blue" onclick="tap('3СЦ',261)">261</a>, <a style="color: blue" onclick="tap('3СЦ',262)">262</a>
+		обвинения ПП <a style="color: blue" onclick="tap('ПП',386)">386</a>, <a style="color: blue" onclick="tap('ПП',404)">404</a>, <a style="color: blue" onclick="tap('ПП',405)">405</a>; 3ИВ <a style="color: blue" onclick="tap('3ИВ',348)">348</a>, <a style="color: blue" onclick="tap('3ИВ',349)">349</a>
+			<i>наихудшее оскорбление <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>а</i> ПП <a style="color: blue" onclick="tap('ПП',402)">402</a>
+			необходимость реабилитации 3ИВ <a style="color: blue" onclick="tap('3ИВ',348)">348</a>, <a style="color: blue" onclick="tap('3ИВ',349)">349</a>
+		отказ слушать СП <a style="color: blue" onclick="tap('СП',54)">54</a>
+			отнимают славу Христа<i></i> СП <a style="color: blue" onclick="tap('СП',54)">54</a>
+		ослабление влияния 6СЦ <a style="color: blue" onclick="tap('6СЦ',42)">42</a>
+		отвержение ПП <a style="color: blue" onclick="tap('ПП',605)">605</a>
+			<i>оскорбление Князя жизни</i> ЖВ <a style="color: blue" onclick="tap('ЖВ',325)">325</a>
+			равносильно отвержению Христа ЖВ <a style="color: blue" onclick="tap('ЖВ',489)">489</a>
+		перекладывание своего бремени 5СЦ <a style="color: blue" onclick="tap('5СЦ',725)">725</a>
+		предвзятость ДА <a style="color: blue" onclick="tap('ДА',279)">279</a>, <a style="color: blue" onclick="tap('ДА',280)">280</a>
+		противодействие 3СЦ <a style="color: blue" onclick="tap('3СЦ',343)">343</a>, <a style="color: blue" onclick="tap('3СЦ',346)">346</a>, <a style="color: blue" onclick="tap('3СЦ',455)">455</a>
+			лжебратьев ПЦ <a style="color: blue" onclick="tap('ПЦ',645)">645</a>, <a style="color: blue" onclick="tap('ПЦ',675)">675</a>
+			оскорбление <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>а 3СЦ <a style="color: blue" onclick="tap('3СЦ',355)">355</a>
+			сражение против воина Христа 3СЦ <a style="color: blue" onclick="tap('3СЦ',316)">316</a>
+	реакция служителя 1ИВ <a style="color: blue" onclick="tap('1ИВ',73)">73</a>
+отношение членов церкви позитивное ПЦ <a style="color: blue" onclick="tap('ПЦ',132)">132</a>
+	доброта ЖВ <a style="color: blue" onclick="tap('ЖВ',357)">357</a>, <a style="color: blue" onclick="tap('ЖВ',358)">358</a>
+	молитва за служителя РХЛ <a style="color: blue" onclick="tap('РХЛ',262)">262</a>, <a style="color: blue" onclick="tap('РХЛ',633)">633</a>; 7СЦ <a style="color: blue" onclick="tap('7СЦ',185)">185</a>
+	ободрение и снисходительность РХЛ <a style="color: blue" onclick="tap('РХЛ',633)">633</a>
+	почитание 4СЦ <a style="color: blue" onclick="tap('4СЦ',393)">393</a>, <a style="color: blue" onclick="tap('4СЦ',542)">542</a>
+	привязанность 4СЦ <a style="color: blue" onclick="tap('4СЦ',316)">316</a>, <a style="color: blue" onclick="tap('4СЦ',318)">318</a>, <a style="color: blue" onclick="tap('4СЦ',527)">527</a>, <a style="color: blue" onclick="tap('4СЦ',594)">594</a>
+	уважение ПЦ <a style="color: blue" onclick="tap('ПЦ',237)">237</a>; ДА <a style="color: blue" onclick="tap('ДА',276)">276</a>, <a style="color: blue" onclick="tap('ДА',278)">278</a>; РХЛ <a style="color: blue" onclick="tap('РХЛ',747)">747</a>; СИ <a style="color: blue" onclick="tap('СИ',483)">483</a>, <a style="color: blue" onclick="tap('СИ',484)">484</a>
+		опыт Давида СИ <a style="color: blue" onclick="tap('СИ',484)">484</a>, <a style="color: blue" onclick="tap('СИ',485)">485</a>
+		со стороны <a style="color: blue" href="<a style="color: blue" href="Свидетельства Уайт Эллен.html" onclick="setToolBarText('Свидетельства Уайт Эллен')">Свидетельства Уайт Эллен</a>.html" onclick="setToolBarText('<a style="color: blue" href="Свидетельства Уайт Эллен.html" onclick="setToolBarText('Свидетельства Уайт Эллен')">Свидетельства Уайт Эллен</a>')"><a style="color: blue" href="Свидетельства Уайт Эллен.html" onclick="setToolBarText('Свидетельства Уайт Эллен')">Свидетельства Уайт Эллен</a></a>
+			<i>я очень верю в наших работников</i> СП <a style="color: blue" onclick="tap('СП',514)">514</a>, <a style="color: blue" onclick="tap('СП',515)">515</a>
+		требование Пятой <a style="color: blue" href="Заповеди.html" onclick="setToolBarText('Заповеди')">Заповеди</a> РХЛ <a style="color: blue" onclick="tap('РХЛ',747)">747</a>
+ошибки служителя 3СЦ <a style="color: blue" onclick="tap('3СЦ',88)">88</a>, <a style="color: blue" onclick="tap('3СЦ',108)">108</a>, <a style="color: blue" onclick="tap('3СЦ',109)">109</a>, <a style="color: blue" onclick="tap('3СЦ',187)">187</a>, <a style="color: blue" onclick="tap('3СЦ',290)">290</a>, <a style="color: blue" onclick="tap('3СЦ',291)">291</a>
+	исправление ошибок 1СЦ <a style="color: blue" onclick="tap('1СЦ',439)">439</a>, <a style="color: blue" onclick="tap('1СЦ','442-444')">442-444</a>
+		ангелами 1СЦ <a style="color: blue" onclick="tap('1СЦ',204)">204</a>
+		опытными людьми 1СЦ <a style="color: blue" onclick="tap('1СЦ',444)">444</a>, <a style="color: blue" onclick="tap('1СЦ',445)">445</a>
+	<i>лучше в сторону милости</i> 4СЦ <a style="color: blue" onclick="tap('4СЦ',65)">65</a>
+	отношение членов церкви
+		жестокость 3СЦ <a style="color: blue" onclick="tap('3СЦ',92)">92</a>, <a style="color: blue" onclick="tap('3СЦ',93)">93</a>
+		осуждение
+			осуждение письменно и устно СП <a style="color: blue" onclick="tap('СП',293)">293</a>, <a style="color: blue" onclick="tap('СП',294)">294</a>
+				<a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a> не дал права СП <a style="color: blue" onclick="tap('СП',293)">293</a>
+				обнародование ошибок 3ИВ <a style="color: blue" onclick="tap('3ИВ','343-345')">343-345</a>
+			поспешное СИ <a style="color: blue" onclick="tap('СИ',484)">484</a>
+		разглашение 3СЦ <a style="color: blue" onclick="tap('3СЦ',94)">94</a>
+	ошибки ветеранов (см. <a style="color: blue" href="Старость.html" onclick="setToolBarText('Старость')">Старость</a>, престарелый служитель)
+призвание на служение ПП <a style="color: blue" onclick="tap('ПП',126)">126</a>, <a style="color: blue" onclick="tap('ПП',127)">127</a>; ПЦ <a style="color: blue" onclick="tap('ПЦ','220-222')">220-222</a>; ЖВ <a style="color: blue" onclick="tap('ЖВ',249)">249</a>, <a style="color: blue" onclick="tap('ЖВ',297)">297</a>; ДА <a style="color: blue" onclick="tap('ДА',330)">330</a>, <a style="color: blue" onclick="tap('ДА',360)">360</a>
+	доказательство ДА <a style="color: blue" onclick="tap('ДА',328)">328</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ',208)">208</a>, <a style="color: blue" onclick="tap('1СЦ',209)">209</a>, <a style="color: blue" onclick="tap('1СЦ',229)">229</a>, <a style="color: blue" onclick="tap('1СЦ',443)">443</a>
+	<i>двадцать вместо одного</i> 6СЦ <a style="color: blue" onclick="tap('6СЦ',414)">414</a>
+	избрание 5СЦ <a style="color: blue" onclick="tap('5СЦ',617)">617</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ','262-265')">262-265</a>
+		<a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>ом 2ИВ <a style="color: blue" onclick="tap('2ИВ',167)">167</a>
+			бросание жребия
+				<i>не в правилах Божьих</i> 2ИВ <a style="color: blue" onclick="tap('2ИВ',328)">328</a>
+			<i>Господь знает, кого избрать</i> 2ИВ <a style="color: blue" onclick="tap('2ИВ',228)">228</a>
+	из других конфессий 1СЦ <a style="color: blue" onclick="tap('1СЦ',444)">444</a>
+	из некогда оскорблявших Христа ЖВ <a style="color: blue" onclick="tap('ЖВ',826)">826</a>
+		<i>переход в стан Христов</i> ДА <a style="color: blue" onclick="tap('ДА',124)">124</a>
+	критерии пригодности для служения 7СЦ <a style="color: blue" onclick="tap('7СЦ',144)">144</a>
+		любовь ко Христу ДА <a style="color: blue" onclick="tap('ДА',515)">515</a>, <a style="color: blue" onclick="tap('ДА',516)">516</a>
+		состояние семьи 5СЦ <a style="color: blue" onclick="tap('5СЦ',618)">618</a>
+	не ангелов ЖВ <a style="color: blue" onclick="tap('ЖВ',296)">296</a>, <a style="color: blue" onclick="tap('ЖВ',297)">297</a>
+	осторожность 1СЦ <a style="color: blue" onclick="tap('1СЦ','441-444')">441-444</a>, <a style="color: blue" onclick="tap('1СЦ',473)">473</a>, <a style="color: blue" onclick="tap('1СЦ',474)">474</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',132)">132</a>
+		избрание неопытных 1СЦ <a style="color: blue" onclick="tap('1СЦ',238)">238</a>, <a style="color: blue" onclick="tap('1СЦ',239)">239</a>
+	отказ от служения 2СЦ <a style="color: blue" onclick="tap('2СЦ',338)">338</a>, <a style="color: blue" onclick="tap('2СЦ',339)">339</a>, <a style="color: blue" onclick="tap('2СЦ',540)">540</a>, <a style="color: blue" onclick="tap('2СЦ',541)">541</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',468)">468</a>, <a style="color: blue" onclick="tap('4СЦ',469)">469</a>
+		<i>не знают, о чем говорят</i> 1СЦ <a style="color: blue" onclick="tap('1СЦ',376)">376</a>
+		с<i>ойти со стен Сиона</i> 2СЦ <a style="color: blue" onclick="tap('2СЦ',513)">513</a>
+	<i>от плуга</i> 7СЦ <a style="color: blue" onclick="tap('7СЦ','270-272')">270-272</a>
+	рукоположение 6СЦ <a style="color: blue" onclick="tap('6СЦ',444)">444</a>
+	честь ПЦ <a style="color: blue" onclick="tap('ПЦ',223)">223</a>; ЖВ <a style="color: blue" onclick="tap('ЖВ',312)">312</a>, <a style="color: blue" onclick="tap('ЖВ',357)">357</a>; ДА <a style="color: blue" onclick="tap('ДА',328)">328</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',127)">127</a>, <a style="color: blue" onclick="tap('5СЦ',246)">246</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',161)">161</a>, <a style="color: blue" onclick="tap('2ИВ',167)">167</a>, <a style="color: blue" onclick="tap('2ИВ',168)">168</a>
+		<i>разделить страдания с Христом</i> 8СЦ <a style="color: blue" onclick="tap('8СЦ',44)">44</a>; СП <a style="color: blue" onclick="tap('СП',173)">173</a> (см. Испытания /  страдания, Христовы испытания / страдания)
+служение (см. <a style="color: blue" href="Служение церковное.html" onclick="setToolBarText('Служение церковное')">Служение церковное</a>)
+смерть ДА <a style="color: blue" onclick="tap('ДА',417)">417</a>, <a style="color: blue" onclick="tap('ДА',418)">418</a>
+уроки из жизни библейских служителей (см. Библейские персонажи Ветхого <a style="color: blue" href="<a style="color: blue" href="Библейские персонажи Ветхого Завета.html" onclick="setToolBarText('Библейские персонажи Ветхого Завета')">Библейские персонажи Ветхого Завета</a>.html" onclick="setToolBarText('<a style="color: blue" href="Библейские персонажи Ветхого Завета.html" onclick="setToolBarText('Библейские персонажи Ветхого Завета')">Библейские персонажи Ветхого Завета</a>')"><a style="color: blue" href="Библейские персонажи Ветхого Завета.html" onclick="setToolBarText('Библейские персонажи Ветхого Завета')">Библейские персонажи Ветхого Завета</a></a>а)
+	Илии ПЦ <a style="color: blue" onclick="tap('ПЦ','140-142')">140-142</a>, <a style="color: blue" onclick="tap('ПЦ','170-176')">170-176</a>
+		"что ты здесь?" ПЦ <a style="color: blue" onclick="tap('ПЦ','171-173')">171-173</a>
+	Ионы ПЦ <a style="color: blue" onclick="tap('ПЦ','274-278')">274-278</a>
+	Ездры ПЦ <a style="color: blue" onclick="tap('ПЦ',623)">623</a>, <a style="color: blue" onclick="tap('ПЦ',624)">624</a>
+	Елисея ПЦ <a style="color: blue" onclick="tap('ПЦ',263)">263</a>
+	Неемии ПЦ <a style="color: blue" onclick="tap('ПЦ',644)">644</a>, <a style="color: blue" onclick="tap('ПЦ',645)">645</a>, <a style="color: blue" onclick="tap('ПЦ',675)">675</a>, <a style="color: blue" onclick="tap('ПЦ',676)">676</a>
+		"не могу сойти" ПЦ <a style="color: blue" onclick="tap('ПЦ',569)">569</a>, <a style="color: blue" onclick="tap('ПЦ',660)">660</a>
+характер служителя РХЛ <a style="color: blue" onclick="tap('РХЛ',80)">80</a>, <a style="color: blue" onclick="tap('РХЛ',265)">265</a>
+	агнца ЖВ <a style="color: blue" onclick="tap('ЖВ',353)">353</a>
+	недостатки характера 4СЦ <a style="color: blue" onclick="tap('4СЦ',322)">322</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',224)">224</a>, <a style="color: blue" onclick="tap('5СЦ',582)">582</a>, <a style="color: blue" onclick="tap('5СЦ',593)">593</a>, <a style="color: blue" onclick="tap('5СЦ',594)">594</a>; 1ИВ <a style="color: blue" onclick="tap('1ИВ',405)">405</a>
+		влияние на служение (см. <a style="color: blue" href="Служение церковное.html" onclick="setToolBarText('Служение церковное')">Служение церковное</a>, влияние изъянов характера)
+	печать на пастве 4СЦ <a style="color: blue" onclick="tap('4СЦ',262)">262</a>, <a style="color: blue" onclick="tap('4СЦ',263)">263</a>, <a style="color: blue" onclick="tap('4СЦ',372)">372</a>, <a style="color: blue" onclick="tap('4СЦ',445)">445</a>
+	нужда в Божественном просвещении 1ИВ <a style="color: blue" onclick="tap('1ИВ',405)">405</a>
+	пассивные и активные качества СИ <a style="color: blue" onclick="tap('СИ',497)">497</a>, <a style="color: blue" onclick="tap('СИ',498)">498</a> (см. <a style="color: blue" href="Характер.html" onclick="setToolBarText('Характер')">Характер</a>, уравновешенный характер) 
+характеристики служителя негативные ЖВ <a style="color: blue" onclick="tap('ЖВ',296)">296</a>, <a style="color: blue" onclick="tap('ЖВ',297)">297</a>, <a style="color: blue" onclick="tap('ЖВ',816)">816</a>; РХЛ <a style="color: blue" onclick="tap('РХЛ',80)">80</a>, <a style="color: blue" onclick="tap('РХЛ',81)">81</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',423)">423</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',17)">17</a>, <a style="color: blue" onclick="tap('4СЦ',211)">211</a>, <a style="color: blue" onclick="tap('4СЦ',212)">212</a>, <a style="color: blue" onclick="tap('4СЦ',237)">237</a>, <a style="color: blue" onclick="tap('4СЦ','323-326')">323-326</a>, <a style="color: blue" onclick="tap('4СЦ','378-380')">378-380</a>, <a style="color: blue" onclick="tap('4СЦ',441)">441</a>, <a style="color: blue" onclick="tap('4СЦ',445)">445</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',212)">212</a>, <a style="color: blue" onclick="tap('5СЦ',214)">214</a>, <a style="color: blue" onclick="tap('5СЦ',256)">256</a>, <a style="color: blue" onclick="tap('5СЦ',670)">670</a>; 7СЦ <a style="color: blue" onclick="tap('7СЦ',199)">199</a>, <a style="color: blue" onclick="tap('7СЦ',200)">200</a>; СИ <a style="color: blue" onclick="tap('СИ',493)">493</a>, <a style="color: blue" onclick="tap('СИ',499)">499</a>, <a style="color: blue" onclick="tap('СИ',500)">500</a>; СП <a style="color: blue" onclick="tap('СП','150-152')">150-152</a>, <a style="color: blue" onclick="tap('СП','161-163')">161-163</a>, <a style="color: blue" onclick="tap('СП',168)">168</a>, <a style="color: blue" onclick="tap('СП',261)">261</a>
+	беспокойство 5СЦ <a style="color: blue" onclick="tap('5СЦ',753)">753</a>, <a style="color: blue" onclick="tap('5СЦ',754)">754</a>
+	заниженная самооценка СИ <a style="color: blue" onclick="tap('СИ',498)">498</a> (см. <a style="color: blue" href="Суждение.html" onclick="setToolBarText('Суждение')">Суждение</a>, самооценка)
+	медлительность 3СЦ <a style="color: blue" onclick="tap('3СЦ',49)">49</a>, <a style="color: blue" onclick="tap('3СЦ',58)">58</a>, <a style="color: blue" onclick="tap('3СЦ','497-500')">497-500</a>
+	самонадеянность 2СЦ <a style="color: blue" onclick="tap('2СЦ',339)">339</a>
+	слабости ПП <a style="color: blue" onclick="tap('ПП',248)">248</a>
+		разочарование ПЦ <a style="color: blue" onclick="tap('ПЦ','173-175')">173-175</a>
+		<i>обложен немощью</i> РХЛ <a style="color: blue" onclick="tap('РХЛ',262)">262</a>
+		отчаяние 1ИВ <a style="color: blue" onclick="tap('1ИВ',86)">86</a>
+		сомнения 1СЦ <a style="color: blue" onclick="tap('1СЦ','377-379')">377-379</a> (см. <a style="color: blue" href="Сомнение.html" onclick="setToolBarText('Сомнение')">Сомнение</a>)
+		уныние ДА <a style="color: blue" onclick="tap('ДА',363)">363</a>
+			<i>греховно и безрассудно</i> СИ <a style="color: blue" onclick="tap('СИ',481)">481</a>
+характеристики служителя позитивные 3СЦ <a style="color: blue" onclick="tap('3СЦ',217)">217</a>, <a style="color: blue" onclick="tap('3СЦ',423)">423</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',448)">448</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',263)">263</a>; 7СЦ <a style="color: blue" onclick="tap('7СЦ',249)">249</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',155)">155</a>; СП <a style="color: blue" onclick="tap('СП',143)">143</a>, <a style="color: blue" onclick="tap('СП',144)">144</a>, <a style="color: blue" onclick="tap('СП','150-152')">150-152</a>, <a style="color: blue" onclick="tap('СП',161)">161</a>, <a style="color: blue" onclick="tap('СП',162)">162</a>, <a style="color: blue" onclick="tap('СП',216)">216</a>, <a style="color: blue" onclick="tap('СП',221)">221</a>, <a style="color: blue" onclick="tap('СП',264)">264</a>, <a style="color: blue" onclick="tap('СП',407)">407</a>
+	активность ПЦ <a style="color: blue" onclick="tap('ПЦ',168)">168</a>, <a style="color: blue" onclick="tap('ПЦ',169)">169</a>
+		человек действия ПП <a style="color: blue" onclick="tap('ПП',423)">423</a>
+	аккуратность 2СЦ <a style="color: blue" onclick="tap('2СЦ','611-614')">611-614</a>; СП <a style="color: blue" onclick="tap('СП',181)">181</a>
+	бескорыстие 1СЦ <a style="color: blue" onclick="tap('1СЦ',130)">130</a>, <a style="color: blue" onclick="tap('1СЦ',586)">586</a>
+	вежливость / учтивость 3ИВ <a style="color: blue" onclick="tap('3ИВ',171)">171</a>; СП <a style="color: blue" onclick="tap('СП',150)">150</a>, <a style="color: blue" onclick="tap('СП',154)">154</a>, <a style="color: blue" onclick="tap('СП',155)">155</a>, <a style="color: blue" onclick="tap('СП',264)">264</a>
+	верность 2СЦ <a style="color: blue" onclick="tap('2СЦ',460)">460</a>, <a style="color: blue" onclick="tap('2СЦ',461)">461</a>, <a style="color: blue" onclick="tap('2СЦ',510)">510</a>, <a style="color: blue" onclick="tap('2СЦ',649)">649</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',23)">23</a>, <a style="color: blue" onclick="tap('3СЦ',25)">25</a>, <a style="color: blue" onclick="tap('3СЦ',495)">495</a>, <a style="color: blue" onclick="tap('3СЦ',505)">505</a>
+		постоянство 4СЦ <a style="color: blue" onclick="tap('4СЦ',448)">448</a>
+	выносливость 3СЦ <a style="color: blue" onclick="tap('3СЦ',48)">48</a>
+	гибкость ДА <a style="color: blue" onclick="tap('ДА',385)">385</a>, <a style="color: blue" onclick="tap('ДА',386)">386</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',673)">673</a>
+	глубокое мышление РХЛ <a style="color: blue" onclick="tap('РХЛ',226)">226</a>
+	готовность учиться ДА <a style="color: blue" onclick="tap('ДА',283)">283</a>, <a style="color: blue" onclick="tap('ДА',284)">284</a>, <a style="color: blue" onclick="tap('ДА',369)">369</a> (см. выше: образование служителя) 
+	джентльмен 4СЦ <a style="color: blue" onclick="tap('4СЦ',606)">606</a>, <a style="color: blue" onclick="tap('4СЦ',607)">607</a>
+	дисциплинированность РХЛ <a style="color: blue" onclick="tap('РХЛ',265)">265</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ','647-649')">647-649</a> (см. <a style="color: blue" href="Самовоспитание.html" onclick="setToolBarText('Самовоспитание')">Самовоспитание</a>)
+		самоисследование ПП <a style="color: blue" onclick="tap('ПП',376)">376</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ','433-436')">433-436</a>, <a style="color: blue" onclick="tap('1СЦ',444)">444</a>, <a style="color: blue" onclick="tap('1СЦ',468)">468</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',47)">47</a>; 8СЦ <a style="color: blue" onclick="tap('8СЦ',195)">195</a> (см. там же)
+			самоанализ ежедневный РХЛ <a style="color: blue" onclick="tap('РХЛ',348)">348</a> (см. там же)
+			самокритичность 5СЦ <a style="color: blue" onclick="tap('5СЦ',166)">166</a>
+		самоконтроль СП <a style="color: blue" onclick="tap('СП',259)">259</a> (см. там же)
+		самообладание 2ИВ <a style="color: blue" onclick="tap('2ИВ',17)">17</a> (см. там же)
+	духовность 6СЦ <a style="color: blue" onclick="tap('6СЦ',411)">411</a>, <a style="color: blue" onclick="tap('6СЦ',412)">412</a>, <a style="color: blue" onclick="tap('6СЦ',443)">443</a>, <a style="color: blue" onclick="tap('6СЦ',444)">444</a>
+		благочестие 3СЦ <a style="color: blue" onclick="tap('3СЦ',210)">210</a>
+		взаимоотношения с <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>ом / Христом 4СЦ <a style="color: blue" onclick="tap('4СЦ',260)">260</a>, <a style="color: blue" onclick="tap('4СЦ',303)">303</a>, <a style="color: blue" onclick="tap('4СЦ',315)">315</a>, <a style="color: blue" onclick="tap('4СЦ',316)">316</a>; 1ИВ <a style="color: blue" onclick="tap('1ИВ',113)">113</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',179)">179</a>, <a style="color: blue" onclick="tap('2ИВ',180)">180</a>
+			зависимость от <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>а ЖВ <a style="color: blue" onclick="tap('ЖВ',249)">249</a>, <a style="color: blue" onclick="tap('ЖВ',250)">250</a>, <a style="color: blue" onclick="tap('ЖВ',362)">362</a>, <a style="color: blue" onclick="tap('ЖВ',369)">369</a>, <a style="color: blue" onclick="tap('ЖВ',370)">370</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ',270)">270</a>; СП <a style="color: blue" onclick="tap('СП',53)">53</a>, <a style="color: blue" onclick="tap('СП',54)">54</a>, <a style="color: blue" onclick="tap('СП','142-144')">142-144</a>, <a style="color: blue" onclick="tap('СП',214)">214</a>, <a style="color: blue" onclick="tap('СП',218)">218</a>, <a style="color: blue" onclick="tap('СП',375)">375</a>
+				осознание собственного бессилия ПП <a style="color: blue" onclick="tap('ПП',248)">248</a>, <a style="color: blue" onclick="tap('ПП',255)">255</a>, <a style="color: blue" onclick="tap('ПП',553)">553</a>, <a style="color: blue" onclick="tap('ПП',554)">554</a>
+				<i>осторожно ступать рядом</i> 2ИВ <a style="color: blue" onclick="tap('2ИВ',95)">95</a>
+					<i>не бежать перед Господом</i> СП <a style="color: blue" onclick="tap('СП',228)">228</a>
+			любовь к Господу ЖВ <a style="color: blue" onclick="tap('ЖВ',815)">815</a>; ДА <a style="color: blue" onclick="tap('ДА',507)">507</a>, <a style="color: blue" onclick="tap('ДА',515)">515</a>, <a style="color: blue" onclick="tap('ДА',516)">516</a>; СП <a style="color: blue" onclick="tap('СП',188)">188</a>
+			общение ЖВ <a style="color: blue" onclick="tap('ЖВ',362)">362</a>, <a style="color: blue" onclick="tap('ЖВ',363)">363</a>, <a style="color: blue" onclick="tap('ЖВ',825)">825</a>; ДА <a style="color: blue" onclick="tap('ДА',205)">205</a>, <a style="color: blue" onclick="tap('ДА',361)">361</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ',434)">434</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',161)">161</a>, <a style="color: blue" onclick="tap('5СЦ',158)">158</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',47)">47</a>, <a style="color: blue" onclick="tap('6СЦ',48)">48</a>; 7СЦ <a style="color: blue" onclick="tap('7СЦ',243)">243</a>, <a style="color: blue" onclick="tap('7СЦ',244)">244</a>, <a style="color: blue" onclick="tap('7СЦ',250)">250</a>, <a style="color: blue" onclick="tap('7СЦ',251)">251</a>; СП <a style="color: blue" onclick="tap('СП',142)">142</a>, <a style="color: blue" onclick="tap('СП',282)">282</a>, <a style="color: blue" onclick="tap('СП',346)">346</a> (см. <a style="color: blue" href="Общение.html" onclick="setToolBarText('Общение')">Общение</a>)
+				<i>каждую минуту</i> СП <a style="color: blue" onclick="tap('СП',249)">249</a>
+					совершенство во Христе СП <a style="color: blue" onclick="tap('СП',160)">160</a>
+				молитва 4СЦ <a style="color: blue" onclick="tap('4СЦ',373)">373</a> (см. <a style="color: blue" href="Молитва.html" onclick="setToolBarText('Молитва')">Молитва</a>)
+				познание  <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a>а 8СЦ <a style="color: blue" onclick="tap('8СЦ',317)">317</a>, <a style="color: blue" onclick="tap('8СЦ',318)">318</a> (см. <a style="color: blue" href="Знание.html" onclick="setToolBarText('Знание')">Знание</a>)
+				слышать Божий голос ЖВ <a style="color: blue" onclick="tap('ЖВ',213)">213</a>, <a style="color: blue" onclick="tap('ЖВ',363)">363</a>; СП <a style="color: blue" onclick="tap('СП',236)">236</a>
+					<a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a> говорит на понятном языке 2ИВ <a style="color: blue" onclick="tap('2ИВ',155)">155</a>
+				созерцание ЖВ <a style="color: blue" onclick="tap('ЖВ',816)">816</a> (см. <a style="color: blue" href="Общение.html" onclick="setToolBarText('Общение')">Общение</a>) 
+				уединение СП <a style="color: blue" onclick="tap('СП',282)">282</a>
+			постоянное причащение 2ИВ <a style="color: blue" onclick="tap('2ИВ',155)">155</a> (см. там же)
+				исполняться Духом Христа СП <a style="color: blue" onclick="tap('СП',144)">144</a>, <a style="color: blue" onclick="tap('СП',145)">145</a>, <a style="color: blue" onclick="tap('СП',170)">170</a>, <a style="color: blue" onclick="tap('СП',214)">214</a>, <a style="color: blue" onclick="tap('СП',215)">215</a>, <a style="color: blue" onclick="tap('СП',513)">513</a>
+				зависимость от Духа СП <a style="color: blue" onclick="tap('СП',404)">404</a>, <a style="color: blue" onclick="tap('СП',492)">492</a>, <a style="color: blue" onclick="tap('СП',493)">493</a>
+					крещение Духом Святым 5СЦ <a style="color: blue" onclick="tap('5СЦ',82)">82</a>, <a style="color: blue" onclick="tap('5СЦ',159)">159</a>; СП <a style="color: blue" onclick="tap('СП',156)">156</a>
+						личная Пятидесятница СП <a style="color: blue" onclick="tap('СП',170)">170</a>
+				просить любви Христа СП <a style="color: blue" onclick="tap('СП',154)">154</a>
+					учиться у Христа СП <a style="color: blue" onclick="tap('СП',346)">346</a>
+			<a style="color: blue" href="Христос.html" onclick="setToolBarText('Христос')">Христос</a> в сердце СИ <a style="color: blue" onclick="tap('СИ',511)">511</a>
+		живая вера СИ <a style="color: blue" onclick="tap('СИ',469)">469</a> (см. <a style="color: blue" href="Вера.html" onclick="setToolBarText('Вера')">Вера</a>)
+		святость 3СЦ <a style="color: blue" onclick="tap('3СЦ',31)">31</a>
+	единомыслие 1ИВ <a style="color: blue" onclick="tap('1ИВ',183)">183</a>
+	жертвенность ДА <a style="color: blue" onclick="tap('ДА',331)">331</a>, <a style="color: blue" onclick="tap('ДА',332)">332</a>, <a style="color: blue" onclick="tap('ДА',362)">362</a>, <a style="color: blue" onclick="tap('ДА',370)">370</a>, <a style="color: blue" onclick="tap('ДА',371)">371</a>, <a style="color: blue" onclick="tap('ДА',527)">527</a>
+	любовь 4СЦ <a style="color: blue" onclick="tap('4СЦ',317)">317</a>; СП <a style="color: blue" onclick="tap('СП',188)">188</a> (см. <a style="color: blue" href="Любовь.html" onclick="setToolBarText('Любовь')">Любовь</a>)
+		<i>любить людей ради Христа</i> СП <a style="color: blue" onclick="tap('СП',157)">157</a>
+		<i>нежная любовь Иисуса</i> СП <a style="color: blue" onclick="tap('СП',151)">151</a>, <a style="color: blue" onclick="tap('СП',153)">153</a>, <a style="color: blue" onclick="tap('СП',154)">154</a>
+	мужество ПЦ <a style="color: blue" onclick="tap('ПЦ',105)">105</a>, <a style="color: blue" onclick="tap('ПЦ',437)">437</a>, <a style="color: blue" onclick="tap('ПЦ',644)">644</a>, <a style="color: blue" onclick="tap('ПЦ',645)">645</a>; ДА <a style="color: blue" onclick="tap('ДА',169)">169</a>, <a style="color: blue" onclick="tap('ДА',230)">230</a>, <a style="color: blue" onclick="tap('ДА',357)">357</a>, <a style="color: blue" onclick="tap('ДА',358)">358</a>, <a style="color: blue" onclick="tap('ДА',362)">362</a>, <a style="color: blue" onclick="tap('ДА',370)">370</a>, <a style="color: blue" onclick="tap('ДА',371)">371</a>, <a style="color: blue" onclick="tap('ДА',507)">507</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ',271)">271</a>, <a style="color: blue" onclick="tap('1СЦ',272)">272</a>, <a style="color: blue" onclick="tap('1СЦ',320)">320</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',151)">151</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',447)">447</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',263)">263</a>
+	настойчивость ПЦ <a style="color: blue" onclick="tap('ПЦ',263)">263</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',82)">82</a>
+	независимость позитивная РХЛ <a style="color: blue" onclick="tap('РХЛ','263-265')">263-265</a>, <a style="color: blue" onclick="tap('РХЛ',785)">785</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',415)">415</a>, <a style="color: blue" onclick="tap('6СЦ',416)">416</a>; СП <a style="color: blue" onclick="tap('СП',491)">491</a>, <a style="color: blue" onclick="tap('СП',492)">492</a>
+		индивидуальность СИ <a style="color: blue" onclick="tap('СИ',498)">498</a>
+			<i>не делаться чьей-то тенью</i> СИ <a style="color: blue" onclick="tap('СИ',499)">499</a>
+		мнения СП <a style="color: blue" onclick="tap('СП',302)">302</a>
+		мышления СП <a style="color: blue" onclick="tap('СП',302)">302</a> (см. <a style="color: blue" href="Интеллект.html" onclick="setToolBarText('Интеллект')">Интеллект</a>, характеристики разума позитивные)
+	образованность СП <a style="color: blue" onclick="tap('СП',195)">195</a> (см. выше образование)
+		понимание истины 1ИВ <a style="color: blue" onclick="tap('1ИВ',494)">494</a>, <a style="color: blue" onclick="tap('1ИВ',405)">405</a>
+			различение лжеучений 1ИВ <a style="color: blue" onclick="tap('1ИВ',169)">169</a>
+		эрудированность РХЛ <a style="color: blue" onclick="tap('РХЛ',602)">602</a>
+			знание Писания 2СЦ <a style="color: blue" onclick="tap('2СЦ',342)">342</a>, <a style="color: blue" onclick="tap('2СЦ',343)">343</a>, <a style="color: blue" onclick="tap('2СЦ','499-501')">499-501</a>
+			мыслящий служитель 4СЦ <a style="color: blue" onclick="tap('4СЦ',47)">47</a>, <a style="color: blue" onclick="tap('4СЦ',67)">67</a>, <a style="color: blue" onclick="tap('4СЦ',415)">415</a>, <a style="color: blue" onclick="tap('4СЦ',416)">416</a>
+			широта взглядов РХЛ <a style="color: blue" onclick="tap('РХЛ',52)">52</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',252)">252</a>
+	осторожность РХЛ <a style="color: blue" onclick="tap('РХЛ',79)">79</a>
+	преданность делу 2ИВ <a style="color: blue" onclick="tap('2ИВ',152)">152</a>, <a style="color: blue" onclick="tap('2ИВ',214)">214</a>, <a style="color: blue" onclick="tap('2ИВ',215)">215</a>; СП <a style="color: blue" onclick="tap('СП',171)">171</a>
+		героизм 1ИВ <a style="color: blue" onclick="tap('1ИВ',88)">88</a>
+		исполнение долга 2ИВ <a style="color: blue" onclick="tap('2ИВ',159)">159</a>
+			возвещать прямое свидетельство 1СЦ <a style="color: blue" onclick="tap('1СЦ','214-216')">214-216</a>
+			<i>пока <a style="color: blue" href="Бог.html" onclick="setToolBarText('Бог')">Бог</a> не отпустит меня</i> 2ИВ <a style="color: blue" onclick="tap('2ИВ',215)">215</a>
+		не смотреть на разочарования СП <a style="color: blue" onclick="tap('СП',513)">513</a>
+			подняться над ошибками СИ <a style="color: blue" onclick="tap('СИ',516)">516</a>
+			формировать обстоятельства СИ <a style="color: blue" onclick="tap('СИ',500)">500</a>
+		полная посвященность ДА <a style="color: blue" onclick="tap('ДА',566)">566</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',468)">468</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',307)">307</a>, <a style="color: blue" onclick="tap('5СЦ',308)">308</a>; СП <a style="color: blue" onclick="tap('СП',172)">172</a>, <a style="color: blue" onclick="tap('СП',514)">514</a>
+			<i>способность принести любую жертву</i> 1СЦ <a style="color: blue" onclick="tap('1СЦ',419)">419</a>, <a style="color: blue" onclick="tap('1СЦ',431)">431</a>
+			сравнение с бизнесменом 2СЦ <a style="color: blue" onclick="tap('2СЦ',335)">335</a>, <a style="color: blue" onclick="tap('2СЦ',336)">336</a>
+			Эрлан Пейдж СП <a style="color: blue" onclick="tap('СП',172)">172</a>, <a style="color: blue" onclick="tap('СП',173)">173</a>
+		приверженность истине СП <a style="color: blue" onclick="tap('СП',159)">159</a>
+	приспособляемость 3СЦ <a style="color: blue" onclick="tap('3СЦ',496)">496</a>, <a style="color: blue" onclick="tap('3СЦ',505)">505</a>
+	реформатор 1ИВ <a style="color: blue" onclick="tap('1ИВ',159)">159</a>
+	решительность ПЦ <a style="color: blue" onclick="tap('ПЦ',660)">660</a>
+		в отношении неправильного 2ИВ <a style="color: blue" onclick="tap('2ИВ',153)">153</a>
+	самоотречение ЖВ <a style="color: blue" onclick="tap('ЖВ',273)">273</a>; ДА <a style="color: blue" onclick="tap('ДА',370)">370</a>; 1СЦ <a style="color: blue" onclick="tap('1СЦ',320)">320</a>, <a style="color: blue" onclick="tap('1СЦ',321)">321</a>, <a style="color: blue" onclick="tap('1СЦ',370)">370</a>, <a style="color: blue" onclick="tap('1СЦ',371)">371</a>, <a style="color: blue" onclick="tap('1СЦ',376)">376</a>, <a style="color: blue" onclick="tap('1СЦ',431)">431</a>, <a style="color: blue" onclick="tap('1СЦ',468)">468</a>, <a style="color: blue" onclick="tap('1СЦ',586)">586</a>; 2СЦ <a style="color: blue" onclick="tap('2СЦ',151)">151</a>, <a style="color: blue" onclick="tap('2СЦ',339)">339</a>, <a style="color: blue" onclick="tap('2СЦ',341)">341</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',176)">176</a>; СП <a style="color: blue" onclick="tap('СП',206)">206</a>, <a style="color: blue" onclick="tap('СП',207)">207</a>, <a style="color: blue" onclick="tap('СП',312)">312</a>, <a style="color: blue" onclick="tap('СП',313)">313</a>
+		вознаграждение ЖВ <a style="color: blue" onclick="tap('ЖВ',249)">249</a>, <a style="color: blue" onclick="tap('ЖВ',330)">330</a>
+		<i>вол между плугом и жертвенником</i> СИ <a style="color: blue" onclick="tap('СИ',502)">502</a>
+		<i>ни одна нить корысти</i> 2ИВ <a style="color: blue" onclick="tap('2ИВ',176)">176</a>
+		пример Павла СИ <a style="color: blue" onclick="tap('СИ',500)">500</a>, <a style="color: blue" onclick="tap('СИ',501)">501</a>
+	скромность РХЛ <a style="color: blue" onclick="tap('РХЛ',769)">769</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',246)">246</a>; СП <a style="color: blue" onclick="tap('СП',188)">188</a>
+	смирение ПП <a style="color: blue" onclick="tap('ПП',420)">420</a>, <a style="color: blue" onclick="tap('ПП',553)">553</a>, <a style="color: blue" onclick="tap('ПП',554)">554</a>, <a style="color: blue" onclick="tap('ПП',633)">633</a>; ЖВ <a style="color: blue" onclick="tap('ЖВ',436)">436</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',211)">211</a>, <a style="color: blue" onclick="tap('3СЦ',287)">287</a>, <a style="color: blue" onclick="tap('3СЦ',288)">288</a>, <a style="color: blue" onclick="tap('3СЦ',307)">307</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',17)">17</a>, <a style="color: blue" onclick="tap('5СЦ',133)">133</a>, <a style="color: blue" onclick="tap('5СЦ',134)">134</a>, <a style="color: blue" onclick="tap('5СЦ',165)">165</a>; 9СЦ <a style="color: blue" onclick="tap('9СЦ',270)">270</a>; 2ИВ <a style="color: blue" onclick="tap('2ИВ',170)">170</a>, <a style="color: blue" onclick="tap('2ИВ',402)">402</a>; СП <a style="color: blue" onclick="tap('СП',219)">219</a>, <a style="color: blue" onclick="tap('СП',220)">220</a>, <a style="color: blue" onclick="tap('СП',223)">223</a>, <a style="color: blue" onclick="tap('СП',249)">249</a>, <a style="color: blue" onclick="tap('СП',250)">250</a> (см. <a style="color: blue" href="Смирение.html" onclick="setToolBarText('Смирение')">Смирение</a>)
+	терпение ЖВ <a style="color: blue" onclick="tap('ЖВ',251)">251</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',327)">327</a>
+	уравновешенность 3СЦ <a style="color: blue" onclick="tap('3СЦ',217)">217</a>; СП <a style="color: blue" onclick="tap('СП',211)">211</a>
+	хорошие манеры 1СЦ <a style="color: blue" onclick="tap('1СЦ',415)">415</a>, <a style="color: blue" onclick="tap('1СЦ',648)">648</a>; 3СЦ <a style="color: blue" onclick="tap('3СЦ',422)">422</a>, <a style="color: blue" onclick="tap('3СЦ',466)">466</a>; 4СЦ <a style="color: blue" onclick="tap('4СЦ',68)">68</a>, <a style="color: blue" onclick="tap('4СЦ',486)">486</a> (см. <a style="color: blue" href="Манеры.html" onclick="setToolBarText('Манеры')">Манеры</a>)
+		гостеприимство 6СЦ <a style="color: blue" onclick="tap('6СЦ',344)">344</a>, <a style="color: blue" onclick="tap('6СЦ',345)">345</a> (см. <a style="color: blue" href="Гостеприимство.html" onclick="setToolBarText('Гостеприимство')">Гостеприимство</a>)
+		искренность 2ИВ <a style="color: blue" onclick="tap('2ИВ',152)">152</a>
+		культура 2СЦ <a style="color: blue" onclick="tap('2СЦ',554)">554</a>, <a style="color: blue" onclick="tap('2СЦ',555)">555</a>, <a style="color: blue" onclick="tap('2СЦ',671)">671</a>; 5СЦ <a style="color: blue" onclick="tap('5СЦ',528)">528</a>, <a style="color: blue" onclick="tap('5СЦ',529)">529</a>
+			сердца СП <a style="color: blue" onclick="tap('СП',195)">195</a>
+				высокие идеалы СП <a style="color: blue" onclick="tap('СП',182)">182</a>
+		любезность 4СЦ <a style="color: blue" onclick="tap('4СЦ',367)">367</a>, <a style="color: blue" onclick="tap('4СЦ',488)">488</a>; 6СЦ <a style="color: blue" onclick="tap('6СЦ',46)">46</a>
+		умение общаться РХЛ <a style="color: blue" onclick="tap('РХЛ',80)">80</a>, <a style="color: blue" onclick="tap('РХЛ',81)">81</a>
+	целеустремленность СИ <a style="color: blue" onclick="tap('СИ',502)">502</a>; СП <a style="color: blue" onclick="tap('СП',194)">194</a>
+</pre>
+</body>
+</html>
